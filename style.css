@@ -1,0 +1,81 @@
+body{
+    background-color: #0f172a;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body.light{
+    background-color: #f1f5f9;
+    color: #0f172a;
+}
+.card{
+    background-color: #1e293b;
+    padding: 30px ;
+    border-radius: 16px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+body.light .card{
+    background-color: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    border: 3px solid #38bdf8;
+}
+.name{
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+.status {
+    font-size: 0.9rem;
+    color: #94a3b8;
+    margin-bottom: 20px;
+}
+.change{
+   padding: 8px 16px;
+   background-color: transparent;
+   color: #38bdf8;
+   border: 1px solid  #38bdf8;
+   border-radius: 6px;
+   cursor: pointer;
+   transition: all 0.2s ease;
+}
+.change:hover{
+    background-color: #38bdf8;
+    color: #0f172a;
+}
+.links{
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.btn{
+    display: block;
+    padding: 10px 15px;
+    background-color: #334155;
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+.btn:hover{
+    background-color: #38bdf8;
+    color: #0f172a;
+}
+body.light .btn{
+    background-color: #e2e8f0;
+    color: #0f172a;
+}
+body.light .btn:hover{
+    background-color: #38bdf8;
+    color: #0f172a;
+}
